@@ -203,3 +203,7 @@ h4 {
   flex-wrap: wrap;
   width: 100%;
 }
+
+a {
+  text-decoration: none;
+}
