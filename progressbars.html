@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CompKit | Progress bar</title>
+  <link rel="icon" href="../icons/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/animation.css">
+  <link rel="stylesheet" href="styles/body.css">
+  <link rel="stylesheet" href="styles/card.css">
+  <link rel="stylesheet" href="styles/loader.css">
+  <link rel="stylesheet" href="styles/footer.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+      <nav>
+        <div class="logo-name">
+          <div class="logo"><img src="../icons/logo.png" alt=""></div>
+          <div class="name"><img src="../icons/name.png" alt=""></div>
+        </div>
+        <div class="menu-bar">
+          <div class="hamburger" onclick="toggleMenu()"><img src="../icons/hamburger.png" alt="hamburger">
+          </div>
+          <ul class="nav-links" id="navLinks">
+            <li><a href="index.html" class="inactive-page">Home</a></li>
+            <li><a href="about.html" class="inactive-page">About</a></li>
+            <li><a href="contact.html" class="inactive-page">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="progress-container">
+      <div class="progress-bar"></div>
+    </div>
+    <main>
+      <div class="card-container">
+        <div class="card">
+          <div class="preview">
+            <div class="bar-wrapper1">
+              <div class="bar-tracker1"></div>
+            </div>
+            <div class="copy"><img src="../icons/copy.png" alt="copy"></div>
+          </div>
+          <div class="code-content">
+            <pre><code>&lt;!-- HTML code --&gt;
+&lt;div class="bar-wrapper"&gt;
+    &lt;div class="bar-tracker"&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- CSS code --&gt;
+.bar-wrapper {
+  width: 160px;
+  background-color: #f0f4f8;
+  height: 16px;
+}
+
+.bar-tracker {
+  width: 0px;
+  background-color: #007bff;
+  height: 16px;
+}
+
+.bar-wrapper:hover .bar-tracker {
+  animation: fillcolor 1s infinite ease;
+}
+
+@keyframes fillcolor {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 160px;
+  }
+}
+</code></pre>
+          </div>
+        </div>
+        <div class="card">
+          <div class="preview">
+            <div class="bar-wrapper2">
+              <div class="bar-tracker2"></div>
+            </div>
+            <div class="copy"><img src="../icons/copy.png" alt="copy"></div>
+          </div>
+          <div class="code-content">
+            <pre><code>&lt;!-- HTML code --&gt;
+&lt;div class="bar-wrapper"&gt;
+    &lt;div class="bar-tracker"&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- CSS code --&gt;
+.bar-wrapper {
+  width: 160px;
+  background-color: #fef6e4;
+  height: 16px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.bar-tracker {
+  width: 0px;
+  background-color: #e74c3c;
+  height: 16px;
+  border-radius: 12px;
+}
+
+.bar-wrapper:hover .bar-tracker {
+  animation: fillcolor 2s infinite ease;
+}
+
+@keyframes fillcolor {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 160px;
+  }
+}
+
+</code></pre>
+          </div>
+        </div>
+        <div class="card">
+          <div class="preview">
+            <div class="bar-wrapper3">
+              <div class="bar-tracker3"></div>
+            </div>
+            <div class="copy"><img src="../icons/copy.png" alt="copy"></div>
+          </div>
+          <div class="code-content">
+            <pre><code>&lt;!-- HTML code --&gt;
+&lt;div class="bar-wrapper"&gt;
+    &lt;div class="bar-tracker"&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- CSS code --&gt;
+.bar-wrapper {
+  width: 160px;
+  background-color: #f0e6f6;
+  height: 16px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.bar-tracker {
+  width: 0px;
+  background-color: #9b59b6;
+  height: 16px;
+  border-radius: 4px;
+}
+
+.bar-wrapper:hover .bar-tracker {
+  animation: fillcolor 2s infinite ease;
+}
+
+@keyframes fillcolor {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 160px;
+  }
+}
+</code></pre>
+          </div>
+        </div>
+        <div class="card">
+          <div class="preview">
+            <div class="bar-wrapper4">
+              <div class="bar-tracker4"></div>
+            </div>
+            <div class="copy"><img src="../icons/copy.png" alt="copy"></div>
+          </div>
+          <div class="code-content">
+            <pre><code>&lt;!-- HTML code --&gt;
+&lt;div class="bar-wrapper"&gt;
+    &lt;div class="bar-tracker"&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- CSS code --&gt;
+
+.bar-wrapper {
+  width: 160px;
+  background-color: #9fdaf5;
+  height: 16px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.bar-tracker {
+  width: 0px;
+  background: repeating-linear-gradient(
+    45deg,
+    #3498db,
+    #3498db 10px,
+    #2980b9 10px,
+    #2980b9 20px
+  );
+  height: 16px;
+  border-radius: 16px;
+}
+
+.bar-wrapper:hover .bar-tracker {
+  animation: fillcolor 2s infinite ease;
+}
+
+@keyframes fillcolor {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 160px;
+  }
+}
+</code></pre>
+          </div>
+        </div>
+        <div class="card">
+          <div class="preview">
+            <div class="bar-wrapper5">
+              <div class="bar-tracker5"></div>
+            </div>
+            <div class="copy"><img src="../icons/copy.png" alt="copy"></div>
+          </div>
+          <div class="code-content">
+            <pre><code>&lt;!-- HTML code --&gt;
+&lt;div class="bar-wrapper"&gt;
+    &lt;div class="bar-tracker"&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- CSS code --&gt;
+
+.bar-wrapper {
+  width: 160px;
+  background-color: #9fdaf5;
+  height: 16px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.bar-tracker {
+  width: 0px;
+  height: 16px;
+  background: linear-gradient(90deg, #038aaf, #60ee6e);
+  border-radius: 16px;
+}
+
+.bar-wrapper:hover .bar-tracker {
+  animation: fillcolor 2s infinite ease;
+}
+
+@keyframes fillcolor {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 160px;
+  }
+}
+</code></pre>
+          </div>
+        </div>
+        <div class="card">
+          <div class="preview">
+            <div class="bar-wrapper6">
+              <div class="bar-tracker6"></div>
+            </div>
+            <div class="copy"><img src="../icons/copy.png" alt="copy"></div>
+          </div>
+          <div class="code-content">
+            <pre><code>&lt;!-- HTML code --&gt;
+&lt;div class="bar-wrapper"&gt;
+    &lt;div class="bar-tracker"&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- CSS code --&gt;
+
+.bar-wrapper {
+  width: 160px;
+  height: 12px;
+  background: #ddd;
+  border-radius: 10px;
+  position: relative;
+}
+
+.bar-tracker {
+  width: 12px;
+  height: 12px;
+  background: #00b894;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.bar-wrapper:hover .bar-tracker {
+  animation: moveDot 1.5s infinite ease-in-out;
+}
+
+@keyframes moveDot {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 148px;
+  }
+}
+</code></pre>
+          </div>
+        </div>
+        <div class="card">
+          <div class="preview">
+            <div class="bar-wrapper7">
+              <div class="bar-tracker7"></div>
+            </div>
+            <div class="copy"><img src="../icons/copy.png" alt="copy"></div>
+          </div>
+          <div class="code-content">
+            <pre><code>&lt;!-- HTML code --&gt;
+&lt;div class="bar-wrapper"&gt;
+    &lt;div class="bar-tracker"&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- CSS code --&gt;
+.bar-wrapper {
+  width: 160px;
+  background-color: #f0f4f8;
+  height: 16px;
+  border-radius: 4px;
+}
+
+.bar-tracker {
+  width: 0px;
+  background: linear-gradient(90deg, #6c5ce7, #b0ade0, #6c5ce7);
+  height: 16px;
+  border-radius: 4px;
+}
+
+.bar-wrapper:hover .bar-tracker {
+  animation: fillcolor 2s infinite ease-out;
+}
+</code></pre>
+          </div>
+        </div>
+        <div class="card">
+          <div class="preview">
+            <div class="bar-wrapper8">
+              <div class="bar-tracker8"></div>
+            </div>
+            <div class="copy"><img src="../icons/copy.png" alt="copy"></div>
+          </div>
+          <div class="code-content">
+            <pre><code>&lt;!-- HTML code --&gt;
+&lt;div class="bar-wrapper"&gt;
+    &lt;div class="bar-tracker"&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- CSS code --&gt;
+
+.bar-wrapper {
+  width: 160px;
+  background-color: #f0f4f8;
+  height: 16px;
+  border-radius: 4px;
+}
+
+.bar-tracker {
+  width: 0px;
+  background: repeating-linear-gradient(
+    to right,
+    #21eeb4 0px,
+    #21e2ac 10px,
+    #dfe6e9 10px,
+    #dfe6e9 20px
+  );
+  height: 16px;
+  border-radius: 4px;
+}
+
+.bar-wrapper:hover .bar-tracker {
+  animation: fillcolor 2s infinite ease-out;
+}
+</code></pre>
+          </div>
+        </div>
+        <div class="card">
+          <div class="preview">
+            <div class="bar-wrapper9">
+              <div class="bar-tracker9"></div>
+            </div>
+            <div class="copy"><img src="../icons/copy.png" alt="copy"></div>
+          </div>
+          <div class="code-content">
+            <pre><code>&lt;!-- HTML code --&gt;
+&lt;div class="bar-wrapper"&gt;
+    &lt;div class="bar-tracker"&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- CSS code --&gt;
+
+.bar-wrapper {
+  width: 160px;
+  background-color: #f0f4f8;
+  height: 16px;
+  border-radius: 4px;
+}
+
+.bar-tracker {
+  width: 0px;
+  background: repeating-linear-gradient(
+    to right,
+    #21eeb4 0px,
+    #21e2ac 10px,
+    #dfe6e9 10px,
+    #dfe6e9 20px
+  );
+  height: 16px;
+  border-radius: 4px;
+}
+
+.bar-wrapper:hover .bar-tracker {
+  animation: fillcolor 2s infinite ease-out;
+}
+</code></pre>
+          </div>
+        </div>
+        <div class="card">
+          <div class="preview">
+            <div class="bar-wrapper10">
+              <div class="bar-tracker10"></div>
+            </div>
+            <div class="copy"><img src="../icons/copy.png" alt="copy"></div>
+          </div>
+          <div class="code-content">
+            <pre><code>&lt;!-- HTML code --&gt;
+&lt;div class="bar-wrapper"&gt;
+    &lt;div class="bar-tracker"&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- CSS code --&gt;
+.bar-wrapper {
+  width: 160px;
+  height: 12px;
+  background: #eee;
+  overflow: hidden;
+  border-radius: 8px;
+  position: relative;
+}
+
+.bar-tracker {
+  position: absolute;
+  right: 0;
+  height: 100%;
+  width: 0%;
+  background: #0984e3;
+}
+
+.bar-wrapper:hover .bar-tracker {
+  animation: fillRight 2s infinite ease-in-out;
+}
+
+@keyframes fillRight {
+  0%,
+  100% {
+    width: 0%;
+  }
+  50% {
+    width: 100%;
+  }
+}
+</code></pre>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="content">
+        <div class="footerhead">Connect with me</div>
+        <div class="footericons">
+          <a href="mailto:rohannkorake@gmail.com"><img class="mail" src="icons/mail.png" alt="mail id" /></a>
+          <a href="https://www.linkedin.com/in/rohan-korake-720848342/" target="_main"><img class="linkedin"
+              src="icons/linkedin.png" alt="linkedin" /></a>
+          <a href="https://github.com/Rohan-Korake" target="_main"><img class="github" src="icons/github.png"
+              alt="github" /></a>
+        </div>
+        <div class="copyright">&copy; 2025 Compkit | Free for all</div>
+      </div>
+    </footer>
+  </div>
+  <script>
+    function toggleMenu() {
+      document.getElementById("navLinks").classList.toggle("show");
+    }
+
+    const copyButtons = document.querySelectorAll('.copy');
+
+    copyButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        const card = button.closest('.card');
+        const codeBlock = card.querySelector('.code-content');
+        const text = codeBlock.innerText;
+
+        navigator.clipboard.writeText(text).then(() => {
+          alert('Copied to clipboard!');
+        });
+      });
+    });
+  </script>
+</body>
+
+</html>

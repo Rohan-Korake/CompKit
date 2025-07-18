@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CompKit | Contact</title>
+    <link rel="icon" href="icons/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/animation.css">
+    <link rel="stylesheet" href="styles/contacts.css">
+    <link rel="stylesheet" href="styles/body.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <nav>
+                <div class="logo-name">
+                    <div class="logo"><img src="icons/logo.png" alt=""></div>
+                    <div class="name"><img src="icons/name.png" alt=""></div>
+                </div>
+                <div class="menu-bar">
+                    <div class="hamburger" onclick="toggleMenu()"><img src="icons/hamburger.png" alt="hamburger"></div>
+                    <ul class="nav-links" id="navLinks">
+                        <li><a href="index.html" class="inactive-page">Home</a></li>
+                        <li><a href="about.html" class="inactive-page">About</a></li>
+                        <li><a href="contact.html" class="active-page">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="progress-container">
+            <div class="progress-bar"></div>
+        </div>
+        <main>
+            <div class="container">
+                <div class="view-container">
+                    <h2><i class="fa-solid fa-user-circle fa-sm"></i> Get in Touch</h2>
+                    <div class="back-card">
+                        <div class="intro">
+                            <p>Hi, I’m Rohan Korake, a Computer Engineering diploma student at LESP, Sangli.
+                                This project is part of my journey to practice web development and improve my skills.
+                                I’m passionate about learning programming languages, exploring new technologies, and
+                                building
+                                small projects to sharpen my programming skills and gain hands-on experience.
+                            </p>
+                        </div>
+                    </div>
+                    <br>
+                    <h2><i class="fa-solid fa-location-dot fa-sm"></i> Stay Connected</h2>
+                    <div class="Social-links">
+                        <a href="mailto:rohannkorake@gmail.com">
+                            <div class="social-item">
+                                <div class="lang-logo1"><img src="icons/mail.png" alt="mail" width="30px">
+                                </div>
+                                <div class="lang-name">rohannkorake@gmail.com</div>
+                            </div>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/rohan-korake-720848342/">
+                            <div class="social-item">
+                                <div class="lang-logo1"><img src="icons/linkedin.png" alt="mail" width="30px">
+                                </div>
+                                <div class="lang-name">linkedin.com/in/rohan-korake</div>
+                            </div>
+                        </a>
+
+                        <a href="https://github.com/Rohan-Korake">
+                            <div class="social-item">
+                                <div class="lang-logo1"><img src="icons/github.png" alt="mail" width="30px">
+                                </div>
+                                <div class="lang-name">github.com/Rohan-Korake</div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <br>
+                    <h2><i class="fa-solid fa-brain fa-sm"></i> Web Development & Design</h2>
+                    <div class="lang-container">
+                        <div class="lang">
+                            <div class="lang-logo"><i class="fa-brands fa-html5 fa-lg" style="color: #f3e8ff;"></i>
+                            </div>
+                            <div class="lang-name">HTML</div>
+                        </div>
+                        <div class="lang">
+                            <div class="lang-logo"><i class="fa-brands fa-css3-alt fa-lg" style="color: #f3e8ff;"></i>
+                            </div>
+                            <div class="lang-name">CSS</div>
+                        </div>
+                        <div class="lang">
+                            <div class="lang-logo"><i class="fa-brands fa-square-js fa-lg" style="color: #f3e8ff;"></i>
+                            </div>
+                            <div class="lang-name">JavaScript</div>
+                        </div>
+                        <div class="lang">
+                            <div class="lang-logo"><i class="fa-brands fa-figma fa-lg" style="color: #f3e8ff;"></i>
+                            </div>
+                            <div class="lang-name">Figma</div>
+                        </div>
+                    </div>
+                    <br>
+                    <h2><i class="fa-solid fa-diagram-project fa-sm"></i> Projects</h2>
+                    <div class="projectcard-container">
+                        <div class="project-card">
+                            <div class="sitetag">
+                                <img src="icons/smartexam.png" alt="logo">
+                                <h4>SmartExam</h4>
+                            </div>
+                            <p>SmartExam is my first project, developed as a practice initiative to help diploma
+                                students easily access previous year exam and practice papers.</p>
+                            <p>
+                                <a href="https://smartexam.vercel.app/"><i class="fa-solid fa-link fa-sm"
+                                        style="color: #66b2ff;"></i> https://smartexam.vercel.app/</a>
+                            </p>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="content">
+                <div class="footerhead">Connect with me</div>
+                <div class="footericons">
+                    <a href="mailto:rohannkorake@gmail.com"><img class="mail" src="icons/mail.png" alt="mail id" /></a>
+                    <a href="https://www.linkedin.com/in/rohan-korake-720848342/" target="_main"><img class="linkedin"
+                            src="icons/linkedin.png" alt="linkedin" /></a>
+                    <a href="https://github.com/Rohan-Korake" target="_main"><img class="github" src="icons/github.png"
+                            alt="github" /></a>
+                </div>
+                <div class="copyright">&copy; 2025 Compkit | Free for all</div>
+            </div>
+        </footer>
+    </div>
+    <script>
+        function toggleMenu() {
+            document.getElementById("navLinks").classList.toggle("show");
+        }
+    </script>
+</body>
+
+</html>

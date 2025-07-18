@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CompKit | Home</title>
+    <link rel="icon" href="icons/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/animation.css">
+    <link rel="stylesheet" href="styles/body.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Sora:wght@400;600&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <nav>
+                <div class="logo-name">
+                    <div class="logo"><img src="icons/logo.png" alt=""></div>
+                    <div class="name"><img src="icons/name.png" alt=""></div>
+                </div>
+                <div class="menu-bar">
+                    <div class="hamburger" onclick="toggleMenu()"><img src="icons/hamburger.png" alt="hamburger"></div>
+                    <ul class="nav-links" id="navLinks">
+                        <li><a href="index.html" class="active-page">Home</a></li>
+                        <li><a href="about.html" class="inactive-page">About</a></li>
+                        <li><a href="contact.html" class="inactive-page">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="progress-container">
+            <div class="progress-bar"></div>
+        </div>
+        <main>
+            <div class="tagline">Your UI building blocks, ready to use.</div>
+            <div class="card-container">
+                <div class="card">
+                    <h3>Primary Buttons</h3>
+                    <p class="card-desc">
+                        Use this button for key actions like <strong>Submit</strong>, <strong>Save</strong>,
+                        <strong>Next</strong>, or <strong>Confirm</strong>. Make your actions stand out.
+                    </p>
+                    <div class="button">
+                        <a href="button/primary.html"><button class="btn">
+                                Explore Primary
+                            </button></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>Secondary Buttons</h3>
+                    <p class="card-desc">
+                        Use this button for actions like <strong>Cancel</strong>, <strong>Back</strong>, or
+                        <strong>Skip</strong>. It supports the main flow without drawing attention.
+                    </p>
+                    <div class="button">
+                        <a href="button/secondary.html"><button class="btn">
+                                Explore Secondary
+                            </button></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>Tertiary Buttons</h3>
+                    <p class="card-desc">
+                        Use for <strong>minor actions</strong> like <strong>View</strong>, <strong>Learn More</strong>,
+                        or <strong>Details</strong>. Minimal design for less important actions.
+                    </p>
+                    <div class="button">
+                        <a href="button/tertiary.html"><button class="btn">
+                                Explore Tertiary
+                            </button></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>Utility Buttons</h3>
+                    <p class="card-desc">
+                        Handy buttons for tasks like <strong>Copy</strong>, <strong>Download</strong>,
+                        <strong>Print</strong>, and <strong>Search</strong>. Boost usability with quick tools.
+                    </p>
+                    <div class="button">
+                        <a href="button/utility.html"><button class="btn">
+                                Explore Utility
+                            </button></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>Rotating Loader</h3>
+                    <p class="card-desc">
+                        Circular loaders like <strong>Spinner</strong> and <strong>Gear</strong> for smooth, modern,
+                        stylish
+                        loading animations.
+                    </p>
+                    <div class="button">
+                        <a href="Loaders.html"><button class="btn">
+                                Explore Spinners
+                            </button></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>Progress Bars</h3>
+                    <p class="card-desc">
+                        Horizontal loaders like <strong>Progress</strong> and <strong>Upload Bars</strong> for smooth,
+                        modern, responsive progress indicators.
+                    </p>
+                    <div class="button">
+                        <a href="progressbars.html"><button class="btn">
+                                Explore Progressor
+                            </button></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>Color Shades</h3>
+                    <p class="card-desc">
+                        A beautiful collection of <strong>10-shade palettes</strong> for each color perfect for themes,
+                        backgrounds,buttons, and more.
+                    </p>
+                    <div class="button">
+                        <a href="shades.html"><button class="btn">
+                                Explore Colors
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>Typography</h3>
+                    <p class="card-desc">
+                        Standardized headings, body text, small print, and code styles for readable and clean UI.
+                    </p>
+                    <div class="button">
+                        <a href="typography.html"><button class="btn">
+                                Explore Typography
+                            </button></a>
+                    </div>
+                </div>
+
+
+            </div>
+        </main>
+        <footer>
+            <div class="content">
+                <div class="footerhead">Connect with me</div>
+                <div class="footericons">
+                    <a href="mailto:rohannkorake@gmail.com"><img class="mail" src="icons/mail.png" alt="mail id" /></a>
+                    <a href="https://www.linkedin.com/in/rohan-korake-720848342/" target="_main"><img class="linkedin"
+                            src="icons/linkedin.png" alt="linkedin" /></a>
+                    <a href="https://github.com/Rohan-Korake" target="_main"><img class="github" src="icons/github.png"
+                            alt="github" /></a>
+                </div>
+                <div class="copyright">&copy; 2025 Compkit | Free for all</div>
+            </div>
+        </footer>
+    </div>
+    <script>
+        function toggleMenu() {
+            document.getElementById("navLinks").classList.toggle("show");
+        }
+    </script>
+</body>
+
+</html>

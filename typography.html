@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CompKit | Shades</title>
+    <link rel="icon" href="../icons/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/animation.css">
+    <link rel="stylesheet" href="styles/body.css">
+    <link rel="stylesheet" href="styles/card.css">
+    <link rel="stylesheet" href="styles/typography.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <nav>
+                <div class="logo-name">
+                    <div class="logo"><img src="../icons/logo.png" alt=""></div>
+                    <div class="name"><img src="../icons/name.png" alt=""></div>
+                </div>
+                <div class="menu-bar">
+                    <div class="hamburger" onclick="toggleMenu()"><img src="../icons/hamburger.png" alt="hamburger">
+                    </div>
+                    <ul class="nav-links" id="navLinks">
+                        <li><a href="index.html" class="inactive-page">Home</a></li>
+                        <li><a href="about.html" class="inactive-page">About</a></li>
+                        <li><a href="contact.html" class="inactive-page">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="progress-container">
+            <div class="progress-bar"></div>
+        </div>
+        <main>
+            <div class="card-container">
+                <div class="card">
+                    <div class="preview">
+                        <h1>Heading 1</h1>
+                        <div class="copy"><img src="../icons/copy.png" alt="copy"></div>
+                    </div>
+                    <div class="typo-code">
+                        <pre><code>
+&lt;!-- HTML code --&gt;
+&lt;h1&gt;Heading 1&lt;/h1&gt;
+
+&lt;!-- CSS code --&gt;
+h1 {
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+}</code></pre>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="preview">
+                        <h2>Heading 2</h2>
+                        <div class="copy"><img src="../icons/copy.png" alt="copy"></div>
+                    </div>
+                    <div class="typo-code">
+                        <pre><code>
+&lt;!-- HTML code --&gt;
+&lt;h2&gt;Heading 2&lt;/h2&gt;
+
+&lt;!-- CSS code --&gt;
+h2 {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}</code></pre>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="preview">
+                        <h3>Heading 3</h3>
+                        <div class="copy"><img src="../icons/copy.png" alt="copy"></div>
+                    </div>
+                    <div class="typo-code">
+                        <pre><code>
+&lt;!-- HTML code --&gt;
+&lt;h3&gt;Heading 3&lt;/h3&gt;
+
+&lt;!-- CSS code --&gt;
+h3 {
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+}</code></pre>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="preview">
+                        <h4>Heading 4</h4>
+                        <div class="copy"><img src="../icons/copy.png" alt="copy"></div>
+                    </div>
+                    <div class="typo-code">
+                        <pre><code>
+&lt;!-- HTML code --&gt;
+&lt;h4&gt;Heading 4&lt;/h4&gt;
+
+&lt;!-- CSS code --&gt;
+h4 {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}</code></pre>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="preview">
+                        <h5>Heading 5</h5>
+                        <div class="copy"><img src="../icons/copy.png" alt="copy"></div>
+                    </div>
+                    <div class="typo-code">
+                        <pre><code>
+&lt;!-- HTML code --&gt;
+&lt;h5&gt;Heading 5&lt;/h5&gt;
+
+&lt;!-- CSS code --&gt;
+h5 {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}</code></pre>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="preview">
+                        <h6>Heading 6</h6>
+                        <div class="copy"><img src="../icons/copy.png" alt="copy"></div>
+                    </div>
+                    <div class="typo-code">
+                        <pre><code>
+&lt;!-- HTML code --&gt;
+&lt;h6&gt;Heading 6&lt;/h6&gt;
+
+&lt;!-- CSS code --&gt;
+h6 {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}</code></pre>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="preview">
+                        <p>Paragraph</p>
+                        <div class="copy"><img src="../icons/copy.png" alt="copy"></div>
+                    </div>
+                    <div class="typo-code">
+                        <pre><code>
+&lt;!-- HTML code --&gt;
+&lt;p&gt;Paragraph&lt;/p&gt;
+
+&lt;!-- CSS code --&gt;
+p {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}</code></pre>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="preview">
+                        <p class="muted-text">Muted</p>
+                        <div class="copy"><img src="../icons/copy.png" alt="copy"></div>
+                    </div>
+                    <div class="typo-code">
+                        <pre><code>
+&lt;!-- HTML code --&gt;
+&lt;p class="muted-text"&gt;Muted&lt;/p&gt;
+
+&lt;!-- CSS code --&gt;
+ .muted-text {
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+}</code></pre>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="preview">
+                        <small>Small</small>
+                        <div class="copy"><img src="../icons/copy.png" alt="copy"></div>
+                    </div>
+                    <div class="typo-code">
+                        <pre><code>
+&lt;!-- HTML code --&gt;
+&lt;small&gt;Small&lt;/small&gt;
+
+&lt;!-- CSS code --&gt;
+small {
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+}</code></pre>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="preview">
+                        <code>Code</code>
+                        <div class="copy"><img src="../icons/copy.png" alt="copy"></div>
+                    </div>
+                    <div class="typo-code">
+                        <pre><code>
+&lt;!-- HTML code --&gt;
+&lt;code&gt;Code&lt;/code&gt;
+
+&lt;!-- CSS code --&gt;
+code {
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Courier New", monospace;
+}</code></pre>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="preview">
+                        <label>Label</label>
+                        <div class="copy"><img src="../icons/copy.png" alt="copy"></div>
+                    </div>
+                    <div class="typo-code">
+                        <pre><code>
+&lt;!-- HTML code --&gt;
+&lt;label&gt;Label&lt;/label&gt;
+
+&lt;!-- CSS code --&gt;
+label {
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}</code></pre>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="preview">
+                        <a>Link</a>
+                        <div class="copy"><img src="../icons/copy.png" alt="copy"></div>
+                    </div>
+                    <div class="typo-code">
+                        <pre><code>
+&lt;!-- HTML code --&gt;
+&lt;a&gt;Link&lt;/a&gt;
+
+&lt;!-- CSS code --&gt;
+a {
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}</code></pre>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="content">
+                <div class="footerhead">Connect with me</div>
+                <div class="footericons">
+                    <a href="mailto:rohannkorake@gmail.com"><img class="mail" src="icons/mail.png" alt="mail id" /></a>
+                    <a href="https://www.linkedin.com/in/rohan-korake-720848342/" target="_main"><img class="linkedin"
+                            src="icons/linkedin.png" alt="linkedin" /></a>
+                    <a href="https://github.com/Rohan-Korake" target="_main"><img class="github" src="icons/github.png"
+                            alt="github" /></a>
+                </div>
+                <div class="copyright">&copy; 2025 Compkit | Free for all</div>
+            </div>
+        </footer>
+    </div>
+    <script>
+        function toggleMenu() {
+            document.getElementById("navLinks").classList.toggle("show");
+        }
+
+        const copyButtons = document.querySelectorAll('.copy');
+
+        copyButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const card = button.closest('.card');
+                const codeBlock = card.querySelector('.typo-code');
+                const text = codeBlock.innerText;
+
+                navigator.clipboard.writeText(text).then(() => {
+                    alert('Copied to clipboard!');
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>

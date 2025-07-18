@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CompKit | About</title>
+    <link rel="icon" href="icons/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/animation.css">
+    <link rel="stylesheet" href="styles/about.css   ">
+    <link rel="stylesheet" href="styles/body.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <nav>
+                <div class="logo-name">
+                    <div class="logo"><img src="icons/logo.png" alt=""></div>
+                    <div class="name"><img src="icons/name.png" alt=""></div>
+                </div>
+                <div class="menu-bar">
+                    <div class="hamburger" onclick="toggleMenu()"><img src="icons/hamburger.png" alt="hamburger"></div>
+                    <ul class="nav-links" id="navLinks">
+                        <li><a href="index.html" class="inactive-page">Home</a></li>
+                        <li><a href="about.html" class="active-page">About</a></li>
+                        <li><a href="contact.html" class="inactive-page">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="progress-container">
+            <div class="progress-bar"></div>
+        </div>
+        <main>
+            <div class="base-container">
+                <div class="main-container">
+                    <div class="heading">
+                        <h2><i class="fa-solid fa-cubes"></i> About CompKit</h2>
+                    </div>
+                    <div class="desp">
+                        <p>CompKit is a simple and growing collection of reusable UI components, crafted to save time,
+                            maintain
+                            consistency, and speed up the web development process. Whether you're prototyping or
+                            building
+                            full
+                            projects, these components help you work faster and smarter.</p>
+                    </div>
+                    <br>
+                    <div class="heading">
+                        <h3><i class="fa-solid fa-lightbulb fa-lg"></i> Why I Created CompKit?</h3>
+                    </div>
+                    <div class="desp">
+                        <p>CompKit was built as a practice project to explore frontend design and improve UI/UX skills.
+                            It’s now evolved into a helpful resource for anyone looking for simple and reusable design
+                            blocks.
+                        </p>
+                    </div>
+                    <br>
+                    <h3><i class="fas fa-box-open"></i> What’s Inside CompKit?</h3>
+                    <div class="feature-container">
+                        <a href="button/primary.html">
+                            <div class="feature">
+                                <div class="feature-icon"><i class="fa-solid fa-bolt"></i></div>
+                                <div class="feature-name">Primary Buttons</div>
+                            </div>
+                        </a>
+
+                        <a href="button/secondary.html">
+                            <div class="feature">
+                                <div class="feature-icon"><i class="fa-solid fa-circle"></i></div>
+                                <div class="feature-name">Secondary Buttons</div>
+                            </div>
+                        </a>
+
+                        <a href="button/tertiary.html">
+                            <div class="feature">
+                                <div class="feature-icon"><i class="fa-regular fa-circle-dot"></i></div>
+                                <div class="feature-name">Tertiary Buttons</div>
+                            </div>
+                        </a>
+
+                        <a href="button/utility.html">
+                            <div class="feature">
+                                <div class="feature-icon"><i class="fa-solid fa-circle-dot"></i></div>
+                                <div class="feature-name">Utility Buttons</div>
+                            </div>
+                        </a>
+
+                        <a href="Loaders.html">
+                            <div class="feature">
+                                <div class="feature-icon"><i class="fa-solid fa-spinner "></i></div>
+                                <div class="feature-name">Rotating Loaders</div>
+                            </div>
+                        </a>
+
+                        <a href="progressbars.html">
+                            <div class="feature">
+                                <div class="feature-icon"><i class="fa-solid fa-bars-progress"></i></div>
+                                <div class="feature-name">Progress Bars</div>
+                            </div>
+                        </a>
+
+                        <a href="shades.html">
+                            <div class="feature">
+                                <div class="feature-icon"><i class="fa-solid fa-palette"></i></div>
+                                <div class="feature-name">Color Shades</div>
+                            </div>
+                        </a>
+
+                        <a href="typography.html">
+                            <div class="feature">
+                                <div class="feature-icon"><i class="fa-solid fa-font"></i></div>
+                                <div class="feature-name">Typography system</div>
+                            </div>
+                        </a>
+                    </div>
+                    <br>
+                    <div class="heading">
+                        <h3><i class="fa-solid fa-tools"></i> Built Using</h3>
+                    </div>
+                    <div class="desp">
+                        <ul class="list-item">
+                            <li><strong>Started with :</strong> HTML</li>
+                            <li><strong>Enhanced using :</strong> CSS</li>
+                            <li><strong>Utilities with :</strong> JavaScript</li>
+                            <li><strong>Styled using :</strong> Font Awesome</li>
+                        </ul>
+                    </div>
+                    <br>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="content">
+                <div class="footerhead">Connect with me</div>
+                <div class="footericons">
+                    <a href="mailto:rohannkorake@gmail.com"><img class="mail" src="icons/mail.png" alt="mail id" /></a>
+                    <a href="https://www.linkedin.com/in/rohan-korake-720848342/" target="_main"><img class="linkedin"
+                            src="icons/linkedin.png" alt="linkedin" /></a>
+                    <a href="https://github.com/Rohan-Korake" target="_main"><img class="github" src="icons/github.png"
+                            alt="github" /></a>
+                </div>
+                <div class="copyright">&copy; 2025 Compkit | Free for all</div>
+            </div>
+        </footer>
+    </div>
+    <script>
+        function toggleMenu() {
+            document.getElementById("navLinks").classList.toggle("show");
+        }
+    </script>
+</body>
+
+</html>
