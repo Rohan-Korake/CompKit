@@ -1,0 +1,34 @@
+.clr {
+  padding: 10px 20px;
+  margin: 8px;
+  border-radius: 8px;
+  width: 60px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shade-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #2a2a3d;
+  margin: 16px;
+  border-radius: 10px;
+}
+
+.clr-code {
+  color: black;
+  font-weight: 400;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.color-heading {
+  font-size: 18px;
+  color: #cbd5e1;
+  font-weight: 600;
+  margin: 16px 16px;
+}

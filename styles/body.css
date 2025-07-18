@@ -1,0 +1,80 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #121212;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.tagline {
+  color: #f0f0f0;
+  font-size: 24px;
+  font-family: cursive;
+  font-weight: 400;
+  margin-top: 8px;
+  line-height: 1.6;
+  text-align: center;
+  margin: 16px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.card h3 {
+  color: white;
+  font-size: 30px;
+  margin: 8px;
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card p {
+  color: #b0b0b0;
+  font-size: 20px;
+  margin: 8px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.card {
+  width: 360px;
+  border-radius: 10px;
+  background-color: #1e1e2f;
+  margin: 16px;
+  padding: 8px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 16px;
+}
+
+.btn {
+  background-color: #6a11cb;
+  color: white;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(106, 17, 203, 0.3);
+  font-family: "Sora", sans-serif;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #8e2de2;
+}

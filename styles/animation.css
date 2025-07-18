@@ -1,0 +1,40 @@
+.progress-container {
+  height: 10px;
+  background-color: #1a1a2e;
+}
+
+.progress-bar {
+  width: 0;
+  height: 10px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  animation: progresser 1s 1 ease;
+}
+
+@keyframes progresser {
+  0% {
+    width: 0%;
+    background-color: #a259ff;
+  }
+  100% {
+    width: 100%;
+    background-color: #6a11cb;
+  }
+}
+
+.logo img {
+  animation: glow 1s 1 ease;
+}
+
+.name img {
+  animation: glow 1s 1 ease;
+}
+
+@keyframes glow {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100;
+  }
+}

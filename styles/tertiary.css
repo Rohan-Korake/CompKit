@@ -1,0 +1,162 @@
+.btn31 {
+  width: auto;
+  color: white;
+  border: 2px solid white;
+  padding: 10px 20px;
+  background-color: transparent;
+  font-size: 15px;
+}
+
+.btn31:hover,
+.btn31:active {
+  text-decoration: underline;
+}
+
+.btn32 {
+  width: auto;
+  color: white;
+  border: 2px dashed rgb(1, 238, 206);
+  padding: 10px 20px;
+  background-color: transparent;
+  font-size: 15px;
+}
+
+.btn32:hover,
+.btn32:active {
+  color: aqua;
+}
+
+.btn33 {
+  background: transparent;
+  color: #888;
+  border: none;
+  font-size: 20px;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.btn33:hover,
+.btn33:active {
+  color: #fff;
+}
+
+.btn34 {
+  background: transparent;
+  color: #ccc;
+  border: 1px solid transparent;
+  font-size: 16px;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn34:hover,
+.btn34:active {
+  border-color: #00bfff;
+  color: #fff;
+}
+
+.btn35 {
+  background: transparent;
+  color: #ccc;
+  border: 1px solid #555;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn35:hover,
+.btn35:active {
+  color: #fff;
+  border-color: #00bfff;
+}
+
+.btn36 {
+  background: transparent;
+  color: #bbb;
+  border: 1px solid #555;
+  padding: 8px 16px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn36:hover,
+.btn36:active {
+  background-color: rgba(0, 191, 255, 0.1);
+  color: #fff;
+  border-color: #00bfff;
+}
+
+.btn37 {
+  background: transparent;
+  color: #aaa;
+  border: none;
+  font-size: 16px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.btn37:hover,
+.btn37:active {
+  color: #fff;
+  text-shadow: 0 0 6px #00bfff;
+}
+
+.btn38 {
+  background: transparent;
+  color: #bbb;
+  border: none;
+  font-size: 16px;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn38:hover,
+.btn38:active {
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 191, 255, 0.2);
+}
+
+.btn39 {
+  background: transparent;
+  color: #bbb;
+  border: none;
+  font-size: 20px;
+  padding: 8px 16px;
+  cursor: pointer;
+  position: relative;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.btn39:hover,
+.btn39:active {
+  transform: translateY(-2px);
+  color: #fff;
+}
+
+.btn40 {
+  background: none;
+  border: none;
+  color: #bbb;
+  font-size: 16px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn40:hover,
+.btn40:active {
+  background-color: #00bfff;
+  color: #121212;
+}

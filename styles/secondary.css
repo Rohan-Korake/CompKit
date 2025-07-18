@@ -1,0 +1,93 @@
+.btn21 {
+  width: 60px;
+  background-color: #a8a8a8;
+  padding: 10px 20px;
+  border-radius: 6px;
+  border: none;
+  font-size: 16px;
+}
+
+.btn22 {
+  width: auto;
+  font-size: 15px;
+  border: 1px solid #777;
+  background: transparent;
+  color: #dddddd;
+  border-radius: 3px;
+  padding: 10px 20px;
+}
+
+.btn23 {
+  width: auto;
+  font-size: 16px;
+  background: #2e2e3f;
+  color: #ffffff;
+  border-radius: 8px;
+  padding: 10px 20px;
+  border: 2px solid white;
+}
+
+.btn24 {
+  width: auto;
+  font-size: 15px;
+  border: 2px solid #2196f3;
+  background: transparent;
+  color: #2196f3;
+  border-radius: 6px;
+  padding: 10px 20px;
+}
+
+.btn25 {
+  width: auto;
+  font-size: 15px;
+  background: #f0f0f0;
+  color: #333333;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.btn26 {
+  width: auto;
+  font-size: 15px;
+  background-color: #ffe0e9;
+  padding: 10px 20px;
+  color: #c2185b;
+  border-radius: 2px;
+}
+
+.btn27 {
+  width: auto;
+  font-size: 15px;
+  background-color: #7bdd62;
+  padding: 10px 20px;
+  color: #080053;
+  border-radius: 20px;
+}
+
+.btn28 {
+  width: auto;
+  font-size: 15px;
+  background-color: #c0dd1d;
+  padding: 10px 20px;
+  color: #0b459b;
+  border-radius: 10px;
+}
+
+.btn29 {
+  width: auto;
+  font-size: 15px;
+  background-color: #dd1d77;
+  padding: 10px 20px;
+  color: #d7d3e2;
+  border-radius: 4px;
+}
+
+.btn30 {
+  width: auto;
+  font-size: 15px;
+  background-color: #b01ddd;
+  padding: 10px 20px;
+  color: #d7d3e2;
+  border-radius: 20px;
+  border: 2px solid white;
+}

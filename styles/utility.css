@@ -1,0 +1,139 @@
+.btn41 {
+  border: 1px solid #11738b;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  border-radius: 6px;
+}
+
+.txt41 {
+  color: #cceeff;
+  font-size: 16px;
+}
+
+.btn42 {
+  border: 2px solid #00994d;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  border-radius: 8px;
+}
+
+.txt42 {
+  color: #ccffe6;
+  font-size: 16px;
+}
+
+.btn43 {
+  border: 1px solid #0091ea;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  border-radius: 5px;
+}
+
+.txt43 {
+  color: #e0f7ff;
+  font-size: 16px;
+}
+
+.btn44 {
+  border: 2px solid #cc0000;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  border-radius: 6px;
+}
+
+.txt44 {
+  color: #ffe6e6;
+  font-size: 16px;
+}
+
+.btn45 {
+  border: 2px solid #008c99;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  border-radius: 6px;
+}
+
+.txt45 {
+  color: #ccf5ff;
+  font-size: 16px;
+}
+
+.btn46 {
+  border: 2px solid #8e24aa;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  border-radius: 7px;
+}
+
+.txt46 {
+  color: #f3e5f5;
+  font-size: 16px;
+}
+
+.btn47 {
+  border: 2px solid #1565c0;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  border-radius: 6px;
+}
+
+.txt47 {
+  color: #e3f2fd;
+  font-size: 16px;
+}
+
+.btn48 {
+  border: 2px solid #1565c0;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  border-radius: 6px;
+}
+
+.txt48 {
+  color: #e3f2fd;
+  font-size: 16px;
+}
+
+.btn49 {
+  border: 1px solid #0097a7;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  border-radius: 6px;
+}
+
+.txt49 {
+  color: #ccf9ff;
+  font-size: 16px;
+}
+
+.btn50 {
+  border: 1px solid #cc0000;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  border-radius: 6px;
+}
+
+.txt50 {
+  color: #ffe6e6;
+  font-size: 16px;
+}

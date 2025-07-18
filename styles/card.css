@@ -1,0 +1,82 @@
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #2a2a3d;
+  margin: 16px;
+  border-radius: 10px;
+}
+
+.card {
+  max-width: 240px;
+}
+
+.preview {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copy img {
+  width: 30px;
+  margin: 8px;
+}
+
+.code-content {
+  height: 220px;
+  background: #333333;
+  color: white;
+  overflow: auto;
+  padding: 10px;
+  border-radius: 6px;
+  scrollbar-width: thin;
+  scrollbar-color: #888 #333333;
+}
+
+.card-title {
+  font-size: 24px;
+  color: #00e5ff;
+  text-align: center;
+  margin: 8px;
+  font-weight: 500;
+  font-family: "Playfair Display", serif;
+}
+
+.card-desc {
+  font-size: 14px;
+  color: #00e5ff;
+  margin: 8px;
+  line-height: 1.4;
+}
+
+.btn-continue {
+  width: 90%;
+  background-color: #6a11cb;
+  padding: 10px 10px;
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.btn-continue:hover,
+.btn-continue:active {
+  background: linear-gradient(90deg, #2a0055, #8e2de2, #2a0055);
+}
+
+.card a {
+  text-decoration: none;
+}
+
+.badge {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.badge .desc {
+  font-size: 16px;
+  color: white;
+}

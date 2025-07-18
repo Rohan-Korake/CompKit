@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+SC:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  height: 110px;
+  width: 100%;
+  margin-top: 8px;
+  margin: auto;
+  background-color: #0d0d1a;
+}
+
+.footerhead {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #e5ebec;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mail {
+  width: 25px;
+  height: 25px;
+}
+
+.linkedin {
+  width: 30px;
+  height: 30px;
+}
+
+.github {
+  width: 30px;
+  height: 30px;
+}
+
+.footericons {
+  font-family: "Merriweather", serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.copyright {
+  font-size: 14px;
+  font-weight: 200;
+  color: #818585;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}

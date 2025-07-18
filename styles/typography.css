@@ -1,0 +1,83 @@
+.typo-code {
+  height: 180px;
+  background: #333333;
+  color: white;
+  overflow: auto;
+  padding: 10px;
+  border-radius: 6px;
+  scrollbar-width: thin;
+  scrollbar-color: #888 #333333;
+}
+
+h1 {
+  color: white;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+h2 {
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+h3 {
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+h4 {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+h5 {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+h6 {
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.preview p {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.muted-text {
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+small {
+  color: white;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+code {
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Courier New", monospace;
+}
+
+label {
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+a {
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+}

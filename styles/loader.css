@@ -1,0 +1,291 @@
+.icon:hover {
+  animation: spin infinite 1s linear;
+}
+
+@media (hover: none) {
+  .icon {
+    animation: spin infinite 1s linear;
+  }
+}
+
+.preview {
+  padding-left: 16px;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes fillcolor {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 160px;
+  }
+}
+
+.bar-wrapper1 {
+  width: 160px;
+  background-color: #9fdaf5;
+  height: 16px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.bar-tracker1 {
+  width: 0px;
+  background: repeating-linear-gradient(
+    45deg,
+    #3498db,
+    #3498db 10px,
+    #2980b9 10px,
+    #2980b9 20px
+  );
+  height: 16px;
+  border-radius: 16px;
+}
+
+.bar-wrapper1:hover .bar-tracker1 {
+  animation: fillcolor 2s infinite ease;
+}
+
+.bar-wrapper2 {
+  width: 160px;
+  background-color: #fef6e4;
+  height: 16px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.bar-tracker2 {
+  width: 0px;
+  background-color: #e74c3c;
+  height: 16px;
+  border-radius: 12px;
+}
+
+.bar-wrapper2:hover .bar-tracker2 {
+  animation: fillcolor 2s infinite ease;
+}
+
+.bar-wrapper3 {
+  width: 160px;
+  background-color: #f0e6f6;
+  height: 16px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.bar-tracker3 {
+  width: 0px;
+  background-color: #9b59b6;
+  height: 16px;
+  border-radius: 4px;
+}
+
+.bar-wrapper3:hover .bar-tracker3 {
+  animation: fillcolor 2s infinite ease;
+}
+
+.bar-wrapper4 {
+  width: 160px;
+  background-color: #f0f4f8;
+  height: 16px;
+}
+
+.bar-tracker4 {
+  width: 0px;
+  background-color: #007bff;
+  height: 16px;
+}
+
+.bar-wrapper4:hover .bar-tracker4 {
+  animation: fillcolor 2s infinite ease;
+}
+
+.bar-wrapper5 {
+  width: 160px;
+  background-color: #c2e0ee;
+  height: 16px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.bar-tracker5 {
+  width: 0px;
+  height: 16px;
+  background: linear-gradient(90deg, #038aaf, #60ee6e);
+  border-radius: 16px;
+}
+
+.bar-wrapper5:hover .bar-tracker5 {
+  animation: fillcolor 2s infinite ease;
+}
+
+.bar-wrapper6 {
+  width: 160px;
+  height: 16px;
+  background: #ddd;
+  border-radius: 10px;
+  position: relative;
+}
+
+.bar-tracker6 {
+  width: 12px;
+  height: 16px;
+  background: #00b894;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.bar-wrapper6:hover .bar-tracker6 {
+  animation: moveDot 1.5s infinite ease-in-out;
+}
+
+@keyframes moveDot {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 148px;
+  }
+}
+
+.bar-wrapper7 {
+  width: 160px;
+  background-color: #f0f4f8;
+  height: 16px;
+  border-radius: 4px;
+}
+
+.bar-tracker7 {
+  width: 0px;
+  background: linear-gradient(90deg, #6c5ce7, #b0ade0, #6c5ce7);
+  height: 16px;
+  border-radius: 4px;
+}
+
+.bar-wrapper7:hover .bar-tracker7 {
+  animation: fillcolor 2s infinite ease-out;
+}
+
+.bar-wrapper8 {
+  width: 160px;
+  background-color: #f0f4f8;
+  height: 16px;
+  border-radius: 4px;
+}
+
+.bar-tracker8 {
+  width: 0px;
+  background: repeating-linear-gradient(
+    to right,
+    #21eeb4 0px,
+    #21e2ac 10px,
+    #dfe6e9 10px,
+    #dfe6e9 20px
+  );
+  height: 16px;
+  border-radius: 4px;
+}
+
+.bar-wrapper8:hover .bar-tracker8 {
+  animation: fillcolor 2s infinite ease-out;
+}
+
+.bar-wrapper9 {
+  width: 160px;
+  background-color: #f0f4f8;
+  height: 16px;
+  border-radius: 4px;
+}
+
+.bar-tracker9 {
+  width: 0px;
+  background: repeating-linear-gradient(
+    60deg,
+    #0adbbf 0px,
+    #0a87db 10px,
+    #dfe6e9 10px,
+    #dfe6e9 20px
+  );
+  height: 16px;
+  border-radius: 4px;
+}
+
+.bar-wrapper9:hover .bar-tracker9 {
+  animation: fillcolor 2s infinite ease-out;
+}
+
+.bar-wrapper10 {
+  width: 160px;
+  height: 12px;
+  background: #eee;
+  overflow: hidden;
+  border-radius: 8px;
+  position: relative;
+}
+
+.bar-tracker10 {
+  position: absolute;
+  right: 0;
+  height: 100%;
+  width: 0%;
+  background: #0984e3;
+}
+
+.bar-wrapper10:hover .bar-tracker10 {
+  animation: fillRight 2s infinite ease-in-out;
+}
+
+@keyframes fillRight {
+  0%,
+  100% {
+    width: 0%;
+  }
+  50% {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1216px) {
+  .bar-tracker1 {
+    animation: fillcolor 2s infinite ease;
+  }
+  .bar-tracker2 {
+    animation: fillcolor 2s infinite ease;
+  }
+  .bar-tracker3 {
+    animation: fillcolor 2s infinite ease;
+  }
+  .bar-tracker4 {
+    animation: fillcolor 2s infinite ease;
+  }
+
+  .bar-tracker5 {
+    animation: fillcolor 2s infinite ease;
+  }
+
+  .bar-tracker6 {
+    animation: moveDot 1.5s infinite ease-in-out;
+  }
+
+  .bar-tracker7 {
+    animation: fillcolor 2s infinite ease-out;
+  }
+
+  .bar-tracker8 {
+    animation: fillcolor 2s infinite ease-out;
+  }
+
+  .bar-tracker9 {
+    animation: fillcolor 2s infinite ease-out;
+  }
+
+  .bar-tracker10 {
+    animation: fillRight 2s infinite ease-in-out;
+  }
+}
