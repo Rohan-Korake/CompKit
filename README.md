@@ -11,7 +11,6 @@
 - 📊 Progress Bars  
 - 🎨 Color Shades  
 - 🔠 Typography System  
-- 📍 Contact & Footer Templates  
 - 🌐 Responsive Design
 
 ---
