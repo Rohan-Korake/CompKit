@@ -63,7 +63,7 @@ p a {
   border: 1px solid rgba(180, 160, 255, 0.1);
   margin: 8px;
   border-radius: 8px;
-  width: 50%;
+  width: 47%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -92,6 +92,7 @@ p a {
   justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 .sitetag {
