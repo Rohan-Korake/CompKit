@@ -62,7 +62,7 @@ body {
 }
 
 .btn {
-  background-color: #6a11cb;
+  background: linear-gradient(45deg, #8d2de2, #4a00e0);
   color: white;
   padding: 12px 24px;
   font-size: 16px;
@@ -71,9 +71,16 @@ body {
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(106, 17, 203, 0.3);
   font-family: "Sora", sans-serif;
+  cursor: pointer;
+  transition: transform 0.8s ease;
 }
 
-.btn:hover,
+.btn:hover {
+  transform: scale(1.05);
+  box-shadow: 2px 2px 5px rgba(166, 74, 252, 0.6);
+}
+
 .btn:active {
-  background-color: #8e2de2;
+  transform: scale(0.97);
+  box-shadow: 0 4px 10px rgba(255, 0, 204, 0.5);
 }

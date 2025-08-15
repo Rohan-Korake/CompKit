@@ -21,6 +21,7 @@
 .copy img {
   width: 30px;
   margin: 8px;
+  cursor: pointer;
 }
 
 .code-content {
