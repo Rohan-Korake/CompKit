@@ -15,7 +15,7 @@ nav {
   display: flex;
   align-items: center;
   width: 50px;
-  margin: 8px;
+  margin-left: 8px;
 }
 
 .name img {
@@ -27,7 +27,7 @@ nav {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  gap: 6px;
+  gap: 4px;
 }
 
 .hamburger img {
@@ -57,11 +57,6 @@ nav {
   text-decoration: none;
 }
 
-.inactive-page:hover {
-  color: gold;
-  text-decoration: underline;
-}
-
 @media (max-width: 610px) {
   .hamburger img {
     display: block;
@@ -73,24 +68,20 @@ nav {
     background-color: #1e1e2f;
     position: absolute;
     top: 63px;
-    right: 6px;
-    width: 160px;
+    right: 0px;
+    width: 90px;
     padding: 15px;
     border-radius: 8px;
-    gap: 30px;
-  }
-
-  .nav-links li a:active {
-    color: gold;
-    text-decoration: underline;
+    gap: 20px;
+    border: 2px solid #8f8fac;
   }
 
   .logo img {
-    width: 40px;
+    width: 35px;
   }
 
   .name img {
-    width: 145px;
+    width: 125px;
   }
 
   .nav-links.show {
@@ -101,5 +92,4 @@ nav {
 .nav-links .active-page {
   color: #00bfff;
   border-bottom: 2px solid #00bfff;
-  text-shadow: 0 0 2px #00bfff;
 }

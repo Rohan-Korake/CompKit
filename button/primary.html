@@ -26,7 +26,7 @@
                         alt=""></div>
             </div>
             <div class="menu-bar">
-                <div class="hamburger" onclick="toggleMenu()"><img
+                <div class="hamburger" onclick="toggleMenu()" id="hamburger"><img
                         src="https://ik.imagekit.io/ik0myx9mu/CompKit/hamburger.png?updatedAt=1755151637081"
                         alt="hamburger"></div>
                 <ul class="nav-links" id="navLinks">
@@ -311,24 +311,7 @@
             <div class="copyright">&copy; 2025 Compkit | Free for all</div>
         </div>
     </footer>
-    <script>
-        function toggleMenu() {
-            document.getElementById("navLinks").classList.toggle("show");
-        }
-
-        const copyButtons = document.querySelectorAll('.copy');
-
-        copyButtons.forEach(button => {
-            button.addEventListener('click', () => {
-                const card = button.closest('.card');
-                const codeBlock = card.querySelector('.code-content');
-                const text = codeBlock.innerText;
-
-                navigator.clipboard.writeText(text).then(() => {
-                    alert('Copied to clipboard!');
-                });
-            });
-        });
+    <script src="../script.js">
     </script>
 
 </body>

@@ -23,15 +23,15 @@
             <nav>
                 <div class="logo-name">
                     <div class="logo"><img
-                            src="../https://ik.imagekit.io/ik0myx9mu/CompKit/logo.png?updatedAt=1755152058722" alt="">
+                            src="https://ik.imagekit.io/ik0myx9mu/CompKit/logo.png?updatedAt=1755152058722" alt="">
                     </div>
                     <div class="name"><img
-                            src="../https://ik.imagekit.io/ik0myx9mu/CompKit/name.png?updatedAt=1755153006876" alt="">
+                            src="https://ik.imagekit.io/ik0myx9mu/CompKit/name.png?updatedAt=1755153006876" alt="">
                     </div>
                 </div>
                 <div class="menu-bar">
-                    <div class="hamburger" onclick="toggleMenu()"><img
-                            src="../https://ik.imagekit.io/ik0myx9mu/CompKit/hamburger.png?updatedAt=1755151637081"
+                    <div class="hamburger" onclick="toggleMenu()" id="hamburger"><img
+                            src="https://ik.imagekit.io/ik0myx9mu/CompKit/hamburger.png?updatedAt=1755151637081"
                             alt="hamburger">
                     </div>
                     <ul class="nav-links" id="navLinks">
@@ -308,25 +308,8 @@ a {
             </div>
         </footer>
     </div>
-    <script>
-        function toggleMenu() {
-            document.getElementById("navLinks").classList.toggle("show");
-        }
+    <script src="script.js"></script>
 
-        const copyButtons = document.querySelectorAll('.copy');
-
-        copyButtons.forEach(button => {
-            button.addEventListener('click', () => {
-                const card = button.closest('.card');
-                const codeBlock = card.querySelector('.typo-code');
-                const text = codeBlock.innerText;
-
-                navigator.clipboard.writeText(text).then(() => {
-                    alert('Copied to clipboard!');
-                });
-            });
-        });
-    </script>
 </body>
 
 </html>
