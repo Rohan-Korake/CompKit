@@ -21,7 +21,8 @@
 
 .clr-code {
   color: black;
-  font-weight: 400;
+  font-weight: 100;
+  font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   cursor: pointer;
 }
