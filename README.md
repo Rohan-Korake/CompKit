@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="https://ik.imagekit.io/ik0myx9mu/CompKit/logo.png?updatedAt=1755152058722" alt="CompKit Logo" width="150"/>
+</p>
+
+
 # 🚀 CompKit
 
 **CompKit** is a lightweight and modern UI component kit built with pure **HTML**, **CSS**, and minimal **JavaScript**. It's designed to help developers quickly copy and paste reusable components into any web project.
