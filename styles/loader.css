@@ -1,3 +1,9 @@
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .icon:hover {
   animation: spin infinite 1s linear;
 }
